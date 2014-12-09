@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background:#999;
+background:url(../../images/e-books.jpg)center center fixed;
+}
+a{
+text-decoration:none;	
+}
+li{
+	list-style:none;
+}
+input:focus{
+	box-shadow: 0px 0px 5px 2px #ccc;
+}
+button:hover{
+box-shadow: 0px 0px 5px 2px #ccc;		
+}
+button:disabled{
+box-shadow: none;
+cursor: not-allowed !important;
+}
+.wrapper{
+	width:1024px;
+	margin:0 auto;
+	background:#300;
+}
+.wrapper header{
+	height:100px;
+	background:#069;
+}
+.wrapper header .logo{
+	float:left;
+	text-shadow: 5px 5px 10px #000;
+	margin: 0 0 0 5%;
+	font-family: sans-serif;
+}
+.wrapper header .logo a{
+	color:#900;
+	font-size: 45px;
+	}
+.wrapper header .signin{
+	float: right;
+	margin: 3% 2% 0 0;
+}
+
+.wrapper header .signin a{
+	font-size: 15px;
+	border:none;
+	color:#603;
+	border-radius:5px;
+	font-weight: 600;
+	font-family: sans-serif;
+	text-shadow: 0px 0px 10px ghostwhite;
+}
+.wrapper header .signin a:hover{
+	text-shadow: 0px 0px 10px red;
+}
+
+.wrapper .container{
+	background: #ccc;
+	float: left;
+	width: 100%;
+	
+}
+.wrapper .container aside{
+	float: left;
+	width: 25%;
+}
+	
+.wrapper .container section{
+float: left;
+width: 75%;
+min-height: 600px;
+border-left: 1px solid #333;
+box-sizing: border-box;
+} 
+.wrapper .container section .form-div{
+	float:left;
+	width:65%;
+	background:#033;
+	
+} 
+.container section .form-div form{
+	padding:20px;
+	
+} 
+section .form-div form input,section .form-div form textarea{
+
+display: block;
+margin: 33px;
+width: 85%;
+height: 20px;
+font-weight: 600;
+font-size: 14px;
+color: #300;
+padding: 10px;
+font-family: sans-serif;
+border-radius: 5px;
+border: 2px solid #fff;
+	
+}
+section .form-div form button{
+
+display: block;
+margin-left: 35%;
+width: 30%;
+font-weight: 600;
+font-size: 18px;
+color: currentcolor;
+cursor:pointer;
+padding: 10px;
+font-family: sans-serif;
+border-radius: 5px;
+border: 2px solid #444;
+	
+} 
+
+section .form-div form textarea{
+height: 100px;
+	
+} 
+.wrapper  .container aside h2{
+	text-align: center;
+	background:#99F;
+	width: 150px;
+	margin:50px auto;
+	padding: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.wrapper  .container aside h2.active-h2{
+	box-shadow: 0px 0px 10px 2px green;
+	}
+.wrapper aside h2 a{
+	color:#333;
+	font-family:sans-serif;
+	}
+.container section>aside.image {
+	float: right;
+width: 30%;
+margin-top: 7%;
+margin-right: 2%;
+height: 300px;
+background:georgian;
+border: 5px solid #777;
+}
+.container section>aside.image img{
+	width: 100%;
+	height: 100%;
+}
+	
+.wrapper footer{
+	float:left;
+	text-align:center;
+	width:100%;
+	background:#069;
+}
+	
+	
